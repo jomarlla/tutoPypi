@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[project]
+name = "tutoPypi"
+version = "0.0.1"
+keywords = ["PostgreSQL", "Psycopg2", "PostGIS", "Utilities"]
+authors = [{ name="Gaspar Mora-Navarro", email="joamona@cgf.upv.es" },]
+description = "Ejemplo de generación de paquete de Pyhton, con su documentación."
+readme = "README.md"
+requires-python = ">=3"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License (GPL)",
+    "Operating System :: OS Independent",
+    "Topic :: Database",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+dependencies = []
+
+[project.urls]
+"Repository" = "https://github.com/joamona/tutoPypi"
+"Documentation" = "https://joamona.github.io/tutoPypi/"
